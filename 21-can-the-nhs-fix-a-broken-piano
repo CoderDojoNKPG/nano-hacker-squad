@@ -1,0 +1,26 @@
+We got most of the code for a piano interface (sort of)
+http://jsbin.com/luhin/1/edit
+
+But some keys are missing. Can you complete all the other keys?
+
+We are using the function constructor to create multiple instances that are similar objects.
+
+For instance, A can be described as:
+
+var A = {
+freq: 440,
+      type: 0,
+
+      play: function() {
+        if (this.oscillator) this.stop();
+        this.oscillator = context.createOscillator();
+        this.oscillator.connect(context.destination);
+        this.oscillator.frequency.value = this.freq;
+        this.oscillator.noteOn(0);
+      },
+stop: function() {
+        if (this.oscillator) {
+          this.oscillator.disconnect(0);
+          this.oscillator = null;if}
+      }
+};

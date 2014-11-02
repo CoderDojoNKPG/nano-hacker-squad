@@ -1,0 +1,23 @@
+By popular vote, it was deemed necessary to have a self-destruct timer for future missions.
+
+There's a working countdown timer:
+http://jsbin.com/biwigoyu/3
+
+It works great when there are 60 seconds or less; however, once we have more than 60 seconds, we'd like to display the following format: MM:SS, where MM are the minutes and SS are the remaining seconds.
+
+1) Let's change the timeRemaining:
+
+    var timeRemaining = 100;
+
+    and check the effect.
+
+    2) We might want to review a Brave New World to display multiple spans with different values.
+    See if you can figure out how to display in the HH:MM format.
+
+    http://jsbin.com/biwigoyu/3/edit
+
+    Hint: You will need few mathematical operations: % (modulus remainder operator) and Math.floor()
+
+    Warning: this exercise is a little more advanced than any example we have seen so far.
+    Hence, you will likely need more help from mentors. Bring questions on Sunday!
+

@@ -1,0 +1,13 @@
+We found some code that produces a nice grid color:
+http://jsbin.com/podese/1/edit
+
+Could you make the changes to produce something like this?
+
+Exercise:
+// 1. Double the size of the canvas (width, height), and of the rectangles.
+// 2. Shrink the width to half of the height for each block
+// 3. Add another set of 6 columns (colors don't matter for now)
+// 4. Fix the colors now!
+
+
+

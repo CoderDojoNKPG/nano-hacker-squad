@@ -1,0 +1,26 @@
+Now, you might get started getting familiar with all the JS family.
+
+You have already met jquery.js. Now, it's two.js. JS stands for Javascript.
+
+There was a fun two.js example I found at:
+http://www.javascriptoo.com/two-js
+
+But I wanted to make it run on jsbin, so I needed a remote URL for two.js.
+http://jsbin.com/yeluge/1/edit
+
+I found the remote URL for two.js while visiting a website with a whole JS mafia: http://cdnjs.com/
+
+And searched for two.js:
+http://cdnjs.com/libraries/two.js/
+
+We have a larger rectangle with random colors too:
+http://jsbin.com/xibuy/1/edit
+
+Your mission:
+1) Change the sizes and colors of each example.
+2) Replace the circle with an ellipse (documentation: http://jonobr1.github.io/two.js/#basic-usage)
+3) Add a polygon. (same reference as above)
+4) Search for an SVG image on google and add it to the drawing
+
+Reference for #4:
+http://flippinawesome.org/2013/06/10/drawing-and-animating-with-two-js-and-illustrator/

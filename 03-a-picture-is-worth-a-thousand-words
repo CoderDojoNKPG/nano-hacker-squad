@@ -1,0 +1,62 @@
+This is an absolute path URL to an image:
+
+http://www.mediastinger.com/wp-content/uploads/2013/07/Lego-Marvel-Super-Heroes-after-credits-large.jpg
+
+This is the modified article
+http://jsbin.com/xediyuco/12
+
+My steps:
+
+a) From http://jsbin.com/xediyuco/1, I replaced the source of the image tag
+
+From:
+<img src="http://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2014/01/23/101359756-464167597.530x298.jpg?v=1393021209" alt="" title=""/>
+
+To:
+<img src="http://www.mediastinger.com/wp-content/uploads/2013/07/Lego-Marvel-Super-Heroes-after-credits-large.jpg" alt="" title=""/>
+
+b) Then I removed the annoying video:
+
+<div class="embed-container video533_300 cnbcvideo autoplay">
+                <div class="vidbox">
+                  <div id="inlinePlayer_3000248140" class="inlinePlayer"></div>
+                  </div>
+                  <div class="attribution">
+                  <div class="last">Into the futures: Key economic data</div>
+                  Friday, 21 Feb 2014 |  1:00  PM ET
+                  </div>
+                  <div class="caption">Investors are about to learn a great deal about how quickly the U.S. economy is growing. Anthony Grisanti and Brian Stutland discuss with Jackie DeAngelis.</div>
+                  </div>
+                  --
+                  c) I moved the image group container to the top of the article.
+
+                  <div class="group-container">
+                  <div class="embed-container image">
+                  <img src="http://www.mediastinger.com/wp-content/uploads/2013/07/Lego-Marvel-Super-Heroes-after-credits-large.jpg" alt="" title=""/>
+                  <div class="attribution">
+                  <span class="last">Getty Images</span>
+                  </div>
+                  <div class="group-container">
+
+                  Just below of:
+                  <div id="article_body" class="content font-content">
+
+                  ---
+
+                  The exercise is to replace the images in your examples with yours.
+
+                  I found some interesting ones when searching for "Marvel superheros"
+
+                  http://images.wookmark.com/91478_dc-marvel-superheroes.jpg
+http://www.geeksofdoom.com/GoD/img/2012/12/2012-12-27-marvel_superheroes.jpg
+http://fc05.deviantart.net/images/i/2003/7/3/c/Marvel_Super_Heroes_-_Color.jpg
+http://fc06.deviantart.net/fs48/f/2009/156/7/d/Marvel_Super_Heroes_by_Matelandia.jpg
+http://www.ilikepics.com/wp-content/uploads/2013/10/Superheroes-2.jpg
+http://static.comicvine.com/uploads/original/0/6063/3436993-lego-marvel-super-heroes-21751-2880x1800.jpg
+
+Or keep searching for others on the net.
+You can search your absolute path URL by searching at http://images.google.com
+
+Some instructions on how to search images:
+https://github.com/CoderDojoNYC/scratch-adventure/blob/master/scratch-adventure.org#insert-a-picture-from-the-internet-as-a-sprite
+

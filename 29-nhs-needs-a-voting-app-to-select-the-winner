@@ -1,0 +1,11 @@
+So far we have a nice selection of names to choose from (some are very cool names)
+// This is a continuation of: http://jsbin.com/bucun/1/edit
+
+We have almost a voting application working:
+http://jsbin.com/dodiz/3/edit
+
+We are missing the function to compute all the checked marks and print the winner and count of votes.
+
+This weekend is the deadline to modify the jsbin to include your food names and voting privileges!
+
+Could you make this application work?

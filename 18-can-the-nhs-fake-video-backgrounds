@@ -1,0 +1,21 @@
+I have uploaded the code combining seriously.js green screening and web camera and it's on a github repo:
+
+Http://www.github.com/pedroha/seriously-camera
+
+The page should be live at:
+Http://pedroha.github.io/seriously-camera
+
+Try downloading the ZIP file from the repo (or even better clone the repo) to your local machine.
+https://github.com/pedroha/seriously-camera/archive/master.zip
+
+Inspect what piece of code and images will need to change in order to change the backgrounds.
+
+If you want to test locally, you'll need to run some web server. On the Mac, you can type on a terminal window after changing the directory to your folder:
+
+python -m SimpleHTTPServer
+
+Then you can open your browser:
+Http://localhost:8000
+
+Another option to run a web server is through node.js and it will work on mac, windows, and linux.
+

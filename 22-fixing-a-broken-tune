@@ -1,0 +1,4 @@
+Given that we can store a lot more data into Arrays, we can store a musical piece as two arrays: one of notes, and another for the duration.
+
+Not sure if the code is right. We could use another tune though.
+http://jsbin.com/giraz/1/edit

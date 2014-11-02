@@ -1,0 +1,18 @@
+Perhaps, now it's the time for the public to hear about NHS (Nano Hacker Squad)
+What better way than making very loud sounds?
+
+Why don't you explore the sound possibilities at http://freesound.org
+(You'll need to create an account. Or you can use mine: quieutquiet/happy.sound)
+
+Check out the jsbin (I hosted my sound resources in github):
+http://jsbin.com/quviwelo/1/edit
+
+1) Let's pick different sound clips to play (short percussions, drum work well) from freesound.org
+
+2) Upload your sound files
+
+jsbin (and similar) are great at sharing code (HTML/CSS/JS), but not graphics and sound files.
+You'll need to host these in another web location.
+You can upload all your files to a free web hosting service such as http://www.neocities.org
+(When creating a neocity account, make sure not to forget your passwords: email it to yourself!)
+

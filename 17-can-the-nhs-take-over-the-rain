@@ -1,0 +1,11 @@
+This is the a simple drawing application, when you click with the mouse, you'll see (sort of) a big rain drop falling.
+
+http://jsbin.com/hedad/1/edit
+
+If you see the color is not quite right, perhaps we could make it more blueish? And change the background color?
+
+Few things we can change:
+1) Size of the rain drop, color of the rain drop
+2) Convert the falling rain drop into a circle instead (hint: modify the "dist" variable")
+3) If you also open the console tab (web inspector!), and when you drag the mouse when down, you'll see the coordinates of the moving mouse (when pressed down). So if you move few lines of code, you might be able to connect the dots! That would create a drawing application!
+

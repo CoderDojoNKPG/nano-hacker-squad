@@ -1,0 +1,23 @@
+This time, we are in the New York Times!
+
+View
+http://jsbin.com/gekuripo/1
+
+Source: 
+http://jsbin.com/gekuripo/1/edit
+
+My steps:
+1) Visit the New York Times: http://www.nytimes.com
+2) Pick any article. I picked: http://www.nytimes.com/2014/02/25/world/europe/ukraine.html?hp&_r=0
+3) Right-click, view page source, copy all
+4) Open an empty jsbin page and paste into the HTML page.
+5) Replace the title, in my case: "Ukraine’s Acting Government Issues Warrant for Yanukovych’s Arrest"
+to: "New York City faces a new disruption: Nano Hacker Squad".
+
+Exercise:
+Repeat the same process, change the content of the article (write about the kickoff meeting? or What a hackathon is). Find some different images and replace!
+
+You'll notice that the page changes to two different views: desktop (very wide), mobile view (when it's narrow).
+
+This is called responsive web design.
+http://mediaqueri.es/

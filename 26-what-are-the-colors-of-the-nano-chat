@@ -1,0 +1,10 @@
+
+The following version has an input color and it's using jquery css()to set the color to "hotpink".
+http://jsbin.com/bukeq/1/edit
+
+However, the input color is still unused.
+
+1) How would you add the color property so that each message line has a custom color?
+
+2) How about adding an image avatar for each message?
+

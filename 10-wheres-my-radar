@@ -1,0 +1,12 @@
+The enemy might be nearby. Hence, it's time to build a radar.
+
+There's some basic instructions at:
+http://jsbin.com/gucekuri/1/edit
+
+So far it looks a little bit slow. Could you fix it?
+
+a) Make it a little faster
+b) Change the colors
+c) Instead of a single loop, why not repeat the same pattern multiple times?
+d) Make it awesome!
+

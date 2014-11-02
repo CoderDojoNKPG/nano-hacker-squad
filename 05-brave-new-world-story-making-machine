@@ -1,0 +1,14 @@
+Somewhere in the remote areas of the Internet, a story making machine was found:
+
+http://jsbin.com/rawuhose/
+
+However, it looks like it's broken and the story cannot be completed when adding a second character.
+
+1) Could you add the missing Javascript for #char-name-2?
+http://jsbin.com/rawuhose/1
+
+Hint: check the JS code for #char-name-1 in the <script> tag.
+
+2) Could you improve the story making machine to create more awesome stories?
+You can add places, characters, animals, timelines, few disasters, few victories and many universes!
+

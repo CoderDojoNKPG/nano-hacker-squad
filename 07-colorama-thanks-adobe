@@ -1,0 +1,16 @@
+
+Choosing "beautiful" color combinations for the NHS has been taking too much time.
+Hence, let's leverage our partner (and victim): http://kuler.adobe.com.
+
+Steps
+1) Visit: https://kuler.adobe.com/explore/most-favorite/
+2) Open Console:
+    a) Web-Inspector (right click on the page and inspect element, then select the "Console" tab at the top)
+    3) Copy/Paste the JS code from:
+        https://gist.github.com/pedroha/5886899
+
+            to the "Console" of Adobe Kuler's web page.
+
+            4) Explore different color combinations: pick any two of the RGB colors and plug it to your NHS page.
+
+

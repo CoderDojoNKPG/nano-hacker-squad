@@ -1,0 +1,22 @@
+Searching for the right sound for the NHS is not a trivial task.
+Besides searching for sound files at freesound.org, you can google for "wav downloads"
+Ex: "siren wav download"
+
+There's this clunky sequencer found at this location.
+
+http://jsbin.com/timadeso/1/edit
+
+Basically, you can compose multiple tracks that play at the same time.
+
+When you click on "play", you'll hear the "music" (sort of music, not really)
+
+Steps:
+1) Find a couple of very short sound effects and create a 4-track player (instead of the current 2-track player).
+2) Find another couple of very short sound effects and replace the two that were in the original code.
+3) Compose the binary digits for each of the tracks to create a masterpiece that represents the multi-track loop for NHS.
+
+You'll realize that you cannot upload sound files to jsbin, so I needed to point to remote resources. In my case, I uploaded them to github and I can reference them from jsbin.
+
+Few other sound files I uploaded to my github repo (from freesound.org)
+https://github.com/pedroha/nano-learning/tree/master/play-sound
+

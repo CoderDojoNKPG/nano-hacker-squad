@@ -1,0 +1,25 @@
+Read the following breaking news:
+
+http://jsbin.com/xediyuco/1
+
+If you want to keep editing: http://jsbin.com/xediyuco/1/edit
+
+How to replicate this?
+
+1) I visited http://cnbc.com and picked the first article:
+"Is the US in real trouble?"
+http://www.cnbc.com/id/101428379
+
+2) View the source and copy it to jsbin (html pane).
+Rick-click on the page, view page source, copy the whole content and paste it into an empty jsbin in the html section.
+
+3) Modify it until it satisfies your needs.
+Then I searched for <h1 class="title">Is the US in real trouble? We&#039;re about to find out</h1>
+and replaced it with  <h1 class="title">New York City faces a new disruption: Nano Hacker Squad</h1>
+
+Can you come up with a better article for CNBC?
+
+As an exercise, write up a small article that looks like coming from CNBC.
+For extra bonus, try changing the images too (search some at http://images.google.com)
+
+Share your links and feel free to post questions.

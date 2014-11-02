@@ -1,0 +1,33 @@
+This is an example of using Google Maps with the examples in Google Ajax playground.
+
+JSBIN
+
+View
+http://jsbin.com/vozaheni/1
+
+Edit
+http://jsbin.com/vozaheni/1/edit
+
+---
+
+Exercise: how to create a google map
+
+1) Visit the google map example at Google Ajax playground:
+https://code.google.com/apis/ajax/playground/#map_simple_v3
+
+2) Copy the source: In the HTML pane, there's a button: "Edit HTML" which will allow you to see the source code.
+Click on "Edit HTML". Copy all the source code
+
+3) Paste in a new jsbin HTML page.
+---
+
+Encore: Try the same with a polyline example:
+https://code.google.com/apis/ajax/playground/#polyline_simple
+https://code.google.com/apis/ajax/playground/#polylines_v3
+
+You'll notice all those Geolocation positions: google.maps.LatLng(37.4419, -122.1419),
+
+Bonus: Try to find out the Geolocation of your high school.
+Hint: Check out this example
+
+https://code.google.com/apis/ajax/playground/#geocoding_simple

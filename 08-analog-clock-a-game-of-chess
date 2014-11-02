@@ -1,0 +1,24 @@
+We have been very impressed with few implementations of the self-destruct timers. In order to bring balance to the destructive nature of such technology, we looked into more peaceful applications. Our latest intel report is advising us that there might be few chess aficionados in NHS. By building a chess clock, it will allow us to uncover those aficionados.
+
+An analog clock example has been found at:
+
+http://jsbin.com/kuvufoxe/1
+
+(The actual code is coming from an article in Mozilla and it's an illustration of the use of the <canvas> element for drawing basic animations)
+
+1) This clock is running clockwise. Our requirement is to run counter-clockwise and once it reaches 0: show an alert() box with some inspirational message.
+
+2) For the second part, you can take a look at a chess clock. A chess clock has two buttons at the top. Pressing on a button will trigger the opposite clock to resume. A chess player loses when the hand for the minutes reaches the 0 minutes.
+
+Chess clock
+
+
+
+How to use a chess clock:
+http://www.youtube.com/watch?v=pL4xNJOIlDw
+
+Hints:
+a) The original code has a single <canvas>. For two clocks you'll need two <canvas> elements with two different IDs.
+
+PS: You might not become a chess master overnight, but you can become a chess clock master instead.
+

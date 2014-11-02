@@ -1,0 +1,11 @@
+Security and privacy are important to the NHS, now we can encrypt our messages in morse code.
+http://jsbin.com/kuliz/1/edit
+
+(See reference: http://en.wikipedia.org/wiki/Morse_code)
+
+The only problem is that we need a way to decrypt the messages!
+
+Can you reverse-engineer the code to get back text messages?
+
+And if you do, could you decipher the following important message from Pedro?
+.. .-....-.-. ..-.-..-.-..-...---

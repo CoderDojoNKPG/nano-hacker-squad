@@ -1,0 +1,50 @@
+The NHS has learned how to infiltrate into the web camera.
+
+A fun tutorial has been found: Web Camera using WebRTC.
+https://developer.mozilla.org/en-US/docs/WebRTC/Taking_webcam_photos
+
+From the jsfiddle (in the tutorial): http://jsfiddle.net/codepo8/agaRe/4/
+
+We refactored a reusable function to be part of the NHS toolkit.
+
+var initCamera = function(videoId) {
+  var video = document.querySelector(videoId);
+
+
+  navigator.getMedia = ( navigator.getUserMedia || 
+      navigator.webkitGetUserMedia ||
+      navigator.mozGetUserMedia ||
+      navigator.msGetUserMedia);
+  navigator.getMedia(
+      {
+video: true, 
+audio: false 
+},
+function(stream) {
+if (navigator.mozGetUserMedia) { 
+video.mozSrcObject = stream;
+} else {
+var vendorURL = window.URL || window.webkitURL;
+video.src = vendorURL ? vendorURL.createObjectURL(stream) : stream;
+}
+video.play();
+},
+function(err) {
+console.log("An error occured! " + err);
+}
+);
+  return video;
+  };
+
+Using this reusable function, let's visit few web pages that contain the HTML5 <video> tag.
+
+1) Visit: http://media.chikuyonok.ru/ambilight/
+2) Copy/paste the definition of the initCamera() function onto the console
+3) In the console, type:  initCamera("#example");
+4) Allow permissions to the web camera
+5) Fix the CSS width using web inspector.
+
+Now, let's try another example:
+1) Visit: http://craftymind.com/factory/html5video/CanvasVideo.html
+2) Do the same, but type: initCamera("#sourcevid");
+

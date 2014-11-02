@@ -1,0 +1,77 @@
+Can the Nano Hacker Squad stop time? By controlling time, we can control the universe!
+
+This exercise is based on a question by Olivia in reference to the analog clock example.
+http://jsbin.com/kuvufoxe/1
+
+How would I make a pause button work?
+
+---
+
+The secret is in the "now" variable and "sec", "min", "hr" variables.
+
+You want to to have your own separate "sec", "min", "hr" variables that are not tied up to "now" all the time.
+
+var now = new Date();
+var myClock = {
+    sec: now.getSeconds(),
+        min: now.getMinutes(),
+            hr: now.getHours()
+            };
+
+            We'll need another boolean variable, say "paused", that will tell us to increase our variables or not.
+
+            var paused = false;
+
+            This is the high-level Logic:
+
+            Timer logic: every second, if "paused" don't do anything, if NOT "paused" then add "1 second" to our myClock.
+
+            function incrementClock() {
+                myClock.sec = myClock.sec + 1; // increment seconds!
+
+                    // What happens when seconds reach 60?
+                        // What happens when minutes reach 60?
+                            // What about hours?
+
+                                return myClock;
+                                }
+
+                                function clock() {
+                                    if (paused) return;
+
+                                        var time = incrementClock();
+                                            var sec = time.sec;
+                                                var min = time.min;
+                                                    var hr = time.hr;
+
+                                                        // Same drawing piece.
+
+
+                                                        The final piece is how do we change the state of the "paused" variable?
+
+                                                        We'll need another HTML button, say "PAUSE", that will toggle the value between "true" or "false".
+
+                                                        ----
+
+                                                        This is the jsbin that includes the many pieces mentioned in the
+
+                                                        http://jsbin.com/kuvufoxe/21/edit
+
+
+                                                        Realize that's not complete. The hand for the seconds is working, but the hands for minutes and hours are not.
+
+                                                        See if you can complete the TODO section.
+
+                                                        Hint: You'll need to use the IF conditions.
+
+                                                        if (myClock.sec === 60) { // if seconds reach 60
+                                                         .......
+                                                         }
+
+                                                         if (myClock.min === 60) { // if minutes reach 60
+                                                           ....
+                                                           }
+
+                                                           I hope you all become time masters!
+                                                           If we master time, we can control the universe! (At least the universe inside the computer)
+

@@ -1,0 +1,24 @@
+We have retrieved an example on how to draw snowflakes on <canvas>
+
+http://jsbin.com/hiromofa/edit
+
+There's a function snowflake() which is called five times. We are using recursion to draw it.
+
+Given this example, recreate a whole scene with snowflakes of recursion level 3 and 4 such as:
+   snowflake(c,3,475,125,125);  // More snowflake-like
+      snowflake(c,4,625,125,125);  // This looks really fractal!
+
+      Try 5 large snowflakes. Why about 100 smaller ones placed randomly?
+      Try different colors for the snowflakes.
+
+      https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Canvas_tutorial/Applying_styles_and_colors
+
+      To make it more interesting, how about using setInterval() to animate all of these snowflakes?
+
+      Let's make a colorful winter scene before spring shows up.
+
+      ---
+
+      Code example taken from the book "Canvas".
+      http://oreilly.com/catalog/0636920016045
+

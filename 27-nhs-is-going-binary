@@ -1,0 +1,12 @@
+This exercise is inspired in Mario's trials on his binary converter.
+
+We have a binary converter (from decimal to binary). Binary means base 2. Decimal is base 10.
+http://jsbin.com/fonap/1/edit
+
+1) Could you come up with the other way, from binary digits to decimal?
+
+2) How about changing the base to 8?
+
+3) Can you make it work for base 16 (known as hexadecimal)
+http://en.wikipedia.org/wiki/Hexadecimal
+

@@ -1,0 +1,54 @@
+A very secretive hacker group, known as the Nano Hacker Squad, is working on a secret project: discover the colors of the NHS.
+
+So far this is the work in progress:
+
+http://jsbin.com/coqipohi/1/edit
+
+We've been eavesdroping on a FUN project to "borrow" some code.
+
+http://jsbin.com/cupuciqe/1
+
+Your mission, should you accept it, it's to explore and discover the right colors for NHS and put back the colors.
+
+  Instructions:
+
+    a) Find the RGB colors for the class .nhs at the bottom of the style pane (see reference at the bottom)
+
+      .feature-box-image.nhs {
+
+          background-color: rgba(255, 255, 255, 0.4);255
+            }
+
+
+              b) Fix the 3 missing blocks to complete the word NHS and restore piece to the hacking world.
+
+              Good luck!
+
+              ---
+
+              This message will self-destruct in 438 nanoseconds.
+
+              438... 437... 436... (this is getting tedious, maybe we should program this one)
+
+              ---
+
+
+
+              Resources:
+
+              RGB color chooser
+
+              http://www.rapidtables.com/web/color/RGB_Color.htm
+
+              http://www.colorschemer.com/online.html
+
+              http://kuler.adobe.com/
+
+              See if you can find the 'borrowing' piece using web-inspector:
+
+              http://jsbin.com/nisawuha/1/
+
+              http://jquery.com
+
+
+
